@@ -11,6 +11,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "yarn build",
+      "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -34,5 +36,5 @@
   "bugs": {
     "url": "https://github.com/jvasquez0687/Memory-Game/issues"
   },
-  "homepage":  "https://jvasquez0687.github.io/Memory-Game/"
+  "homepage": "https://jvasquez0687.github.io/Memory-Game/"
 }
